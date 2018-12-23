@@ -11,3 +11,12 @@ Apollo is a popular gateway to querying GraphQL servers however EOSIO based dApp
 ## Installation
 
 `apollo-link`, `graphql` and `eosjs` are peer dependencies needed by `apollo-link-eosio`.
+
+```
+
+const eosioLink = new EOSIOLink({
+
+})
+
+
+```

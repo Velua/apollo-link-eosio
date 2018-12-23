@@ -29,3 +29,12 @@ export namespace EosLink {
     data: any;
   }
 }
+
+export class EosLink {
+  constructor({
+    eosjs,
+    defaultContractAccount,
+    defaultAuthActor,
+    defaultAuthPermission
+  }: EosLink.Options) {}
+}
