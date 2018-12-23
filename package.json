@@ -1,0 +1,21 @@
+{
+  "name": "apollo-link-eosio",
+  "version": "1.0.0",
+  "description": "Redirect Apollo Mutations to EOSIO transactions",
+  "main": "index.js",
+  "repository": "https://github.com/Velua/apollo-link-eosio",
+  "author": "John Williamson",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "peerDependencies": {
+    "apollo-link": ">=1",
+    "eosjs": "^20.0.0-beta3"
+  },
+  "dependencies": {
+    "apollo-link": "^1.2.6",
+    "eosjs": "^20.0.0-beta3"
+  }
+}
